@@ -1,0 +1,242 @@
+
+
+
+
+
+body{
+background-image:url("http://www.xiaomohk.cn/images/background.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+}
+
+header .login{
+    width:100x; 
+    height:100px;
+    text-align:right;
+    float:right;   
+}
+header .login h2{
+	font-size:20px;
+	color:brown;
+}
+
+header  .login input {
+	width:100px;
+	height:50px;
+}
+
+header{
+    border-bottom-color:darkgray;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    transition:all 1s ease-in;
+}
+header img:hover{
+     transform:rotate(360deg);
+
+}
+	
+header span{
+    position: absolute;
+    top:20px;
+    left:300px;
+}
+header h1{
+    text-align: center;
+    font-family:  Georgia;
+    font-size: 50px;
+    color: brown;
+    text-shadow: 3px 4px 5px green;
+}           
+
+
+.nav{
+    width: 1000px;
+    height: 200px;
+  //  background:darkgrey;
+    margin:  auto;
+    text-align: center;
+    line-height: 40px;
+   // border-radius: 2%;
+}
+.nav:hover{
+    
+    background:darkgrey;
+
+    border-radius: 2%;
+}
+
+nav p{
+    font-style: oblique;
+    font-weight: 700;
+    word-spacing: 3;
+    word-break: inherit;
+    font-size:20px;
+}
+nav a{
+    font-family:Cambria;
+    font-size: 20px;
+}
+nav a:vlnink{
+    color:black;
+    text-decoration: none;
+    font-size: 21px;
+}
+nav a:link{
+    color: blue;
+    text-decoration: none;
+}
+nav a:hover{  
+      text-shadow: 3px 4px 5px green;
+
+}
+nav ul,li{
+    list-style-type: none;
+}
+.nav li{
+    width:80px;
+    height:50px;
+    //background:blanchedalmond;
+}
+.nav li:hover{
+
+    background:blanchedalmond;
+
+}
+.nav >li{
+    float: left;
+    margin-right: 150px;
+    margin-left: 100px;
+    position: relative;
+  
+}
+
+.nav >li:last-child{
+    margin-right: 100px;
+
+
+}
+.nav li ul{
+    position: absolute;
+    left:-20px;
+    top:50px;
+    display: none;
+}
+
+
+
+.content{
+    border-left: 5px solid darkgray;
+    border-right: 5px solid darkgrey;
+    border-bottom:solid 5px darkgray;
+    width: 800px;
+    height: 600px;
+    margin: auto;   
+}
+.content >h1,h2{
+    text-align: center;
+    color:brown;
+}
+.content > a>img{
+    width: 150px;
+    height: 150px;
+    margin-left:60px;
+    margin-top: 50px;
+    transition: all 3s ease-in ;
+}
+.content >a>img:hover{
+    opacity: 0.1;
+    transform:rotate(360deg);
+    transform: rotate(-360deg);
+    box-shadow: 3px 4px 5px green;
+}
+
+footer{
+    height: 600px;
+    width:500px;
+    margin:  auto ;
+    text-align: center;
+}
+
+footer video{
+	height:300px;
+	width:250px;
+	}
+footer video:hover{
+	opacity:0.8;
+	width:600px;
+	height:500x;
+}
+
+
+ 
+/*   line-height: 20px;
+  
+  // background-image:url("http://www.xiaomohk.cn/images/boot.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    transition:all 1s ease-in;	
+}
+*/
+
+
+/*
+footer:hover{
+     height:500px;
+     width:500px;
+     transform:rotate(60deg);
+     transform:rotate(-120deg);
+}
+*/
+
+.footerbanner{
+    height:300px;
+    background:darkgrey;
+    float:left;
+  }
+.footerbanner  h2 h3{
+ 	color:brown;
+	text-align:center;
+}
+
+
+
+/*
+footer h2, h3{
+    text-align: center;
+    color:brown;
+
+}
+*/
+
+/*
+footer #poem:hover {
+	
+	width:100px;
+	height:100px;
+
+footer #poem p:hover{
+          color:brown;
+	  font-size:100px;
+}
+//footer  #poem  p:hover{
+
+
+
+/*
+footer img{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-right: 100px;
+    margin-left:  90px
+
+}
+ 
+*/
